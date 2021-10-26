@@ -23,14 +23,7 @@ for(let i = 0; i < dbEmail.length; i++){
 if (registrazione == true) {
   alert("La tua mail è valida, puoi giocare");
 
-}
-else{
-  alert("La tua mail non è valida, non puoi giocare"); 
-}
-
-
-
-//DADI
+  //DADI
 const playerDice = Math.floor(Math.random() * 5) + 1;
 const pcDice = Math.floor(Math.random() * 5) + 1;
 
@@ -57,3 +50,10 @@ document.getElementById('output').innerHTML = risultato;
 
 
 }
+
+
+}
+else{
+  alert("La tua mail non è valida, non puoi giocare"); 
+}
+

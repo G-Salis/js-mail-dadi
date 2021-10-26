@@ -34,14 +34,14 @@ if (registrazione == true) {
   alert("La tua mail è valida, puoi giocare");
 
   //DADI
-const playerDice = Math.floor(Math.random() * 5) + 1;
+const playerDice = Math.floor(Math.random() * 6) + 1;
 
 myCol.append("il tuo numero è: ");
 myCol.append(playerDice);
 myCol.classList.add("box");
 
 
-const pcDice = Math.floor(Math.random() * 5) + 1;
+const pcDice = Math.floor(Math.random() * 6) + 1;
 
 pcCol.append("il numero del pc è: ");
 pcCol.append(pcDice);
